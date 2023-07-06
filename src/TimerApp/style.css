@@ -1,0 +1,95 @@
+.TimerApp {
+  color: purple;
+}
+
+.Stopwatch {
+  width: 500px;
+}
+
+
+.box {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  transition: margin 1s, background-color 0.5s;
+}
+.box:hover {
+  background-color: #fafafa;
+}
+
+
+.new-button-wrapper {
+  width: 500px;
+  text-align: center;
+}
+.new {
+  font-size: 1.4em;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  margin: 1em;
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+  background-color: pink;
+  border: 1px solid red;
+  padding: 0.2em;
+  text-align: center;
+  font-size: 1em;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.stop {
+}
+
+.reset,
+.stop,
+.start {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 40px;
+  border: 3px double black;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.start {
+  background-color: #afa;
+  border-color: #aca;
+}
+.stop {
+  background-color: pink;
+  border-color: red;
+}
+
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.buttons > input {
+  text-align: center;
+  margin: 10px auto;
+}
+.TimerSince {
+  position: relative;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.time {
+  font-size: 4em;
+  font-family: monospace;
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 10px 10px 0 0;
+}
