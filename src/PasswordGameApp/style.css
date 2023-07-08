@@ -1,0 +1,70 @@
+.PasswordGameApp {
+  background-color: #e9f9ff;
+  height: 100vh;
+}
+.page {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1em;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+label {
+  text-align: center;
+  borde: 1px solid red;
+
+}
+
+.password {
+  display: block;
+  padding: 0.2em 0.5em;
+  margin: 2em  0;
+  font-size: 2em;
+  border-radius: 0.3em;
+  border: 1px solid black;
+  width: calc(100% - 1em);
+  font-family: monospace;
+}
+
+.message {
+  padding: 0 ;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 1em auto;
+}
+
+.message.pass {
+  background-color: #e3ffe3;
+  border-color: #267b30;
+  box-shadow: 2px 2px 5px 2px rgba(0,255,0,.12);
+}
+
+.message.fail {
+  background-color: #ffecec;
+  border: 1px solid #f00;
+  box-shadow: 2px 2px 5px 2px rgba(255,0,0,.12);
+}
+
+.message .body {
+  padding: 1em;
+}
+.message .title {
+  margin: 0;
+  background-color: #eeee;
+  padding: 0.5em 1em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.message.pass .title {
+  background-color: #aef3ae;
+}
+.message.fail .title {
+  background-color: #ffc7c7;
+}
