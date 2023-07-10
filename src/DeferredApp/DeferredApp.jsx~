@@ -1,0 +1,10 @@
+//import logo from './logo.svg';
+import './DeferredApp.css';
+
+export default function DeferredApp() {
+  return (
+    <div className="DeferredApp">
+      hello
+    </div>
+  );
+}
