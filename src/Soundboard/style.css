@@ -1,0 +1,17 @@
+* {
+  color: #354390;
+  background: #ffff54;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 50px;
+}
+.icons > * {
+  border: 1px solid #aaaa44;
+  border-radius: 20px;
+  width: 100%;
+  cursor: pointer;
+}
